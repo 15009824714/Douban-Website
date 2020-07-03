@@ -1,0 +1,25 @@
+@import "http://at.alicdn.com/t/font_1277049_txgl80jl2p.css";
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.wrap{
+    width: 950px;
+    margin: auto;
+}

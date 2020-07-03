@@ -1,0 +1,350 @@
+@import "reset.css";
+@import "common.css";
+/*统一样式*/
+body{
+    padding-top: 30px;
+}
+/*统一样式*/
+
+/*头部开始*/
+
+
+.container{
+    width: 1080px;
+    margin: 0 auto 25px;
+    overflow: auto;
+}
+.container h1{
+    float: left;
+
+}
+.container>h1>a{
+    float: left;
+    display: inline-block;
+    width: 154px;
+    height: 0px;
+    overflow: hidden;
+    padding-top: 30px;
+    background: url('../img/logo.png') no-repeat;
+
+}
+
+.form form{
+    height: 30px;
+    position: relative;
+}
+.container .form button{
+    position: absolute;
+    height: 30px;
+    border: none;
+    background: transparent;
+    right: 1px;
+}
+.container .form{
+    border: 1px solid #c3c3c3;
+    width: 270px;
+    height: 30px;
+    float: left;
+    margin-left: 50px;
+    display: inline-block;
+}
+.container .search{
+    width: 240px;
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.container ul{
+    float: right;
+    padding-top: 5px;
+}
+.container ul>li{
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*头部结束*/
+
+/*内容区域*/
+.db-body{
+
+    height: 304px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color:  #edf4ed;
+    background-size: contain;
+    background-position: 14% top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.db-body-center{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -60px;
+}
+.apptitle{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.db-body-center button{
+    width: 114.6px;
+    height: 30px;
+    background-color: #00B51D;
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 6px;
+}
+.logoerweima{
+    display: inline-block;
+    position: relative;
+
+}
+
+.db-body-center .logoerweima>img{
+    border: solid 1px #48aa0d;
+    width:28px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.db-body-center .erweima{
+
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.logoerweima:hover .erweima{
+    display: block;
+}
+.erweima img{
+    width: 160px;
+    height: 160px;
+}
+iframe{
+    height: 100%;
+    float: right;
+    position: absolute;
+    right: 300px;
+    top: 0;
+}
+
+
+/*内容区域结束*/
+.db-hotspot{
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.db-hotspot .hotspotleft{
+    width: 655px;
+    height: 472px;
+    float: left;
+}
+.hotspotleft h1{
+     color: rgb(0,199,34);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+
+}
+.hotspotleft h1 a{
+    color: #37a;
+    font-size: 12px;
+}
+.hotspotleft .hotspotimg li{
+    font-size: 12px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.hotspotleft .hotspotimg p{
+    width: 170px;
+    line-height: 1.5;
+}
+.hotspotleft .hotspotimg li img{
+    width: 170px;
+    height: 170px;
+}
+.db-hotspot a:hover{
+    background-color: #37a;
+    color: white;
+}
+.db-hotspot .hotspotimg{
+    width: 360px;
+    margin-right: 20px;
+    float: left;
+}
+.db-hotspot .hostpottext{
+    width: 275px;
+    height: 357px;
+    float: left;
+    font-size: 12px;
+}
+.db-hotspot .hostpottext p{
+    padding: 8px 0;
+}
+.db-hotspot .hostpottext p a{
+    color: #37a;
+}
+.db-hotspot .hostpottext p a:hover{
+    color: white;
+}
+.hotspotright{
+    width: 265px;
+    width: 265px;
+    margin-left: 30px;
+    float: right;
+}
+.hotspotright h1{
+    color: #8fd19e;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.hotspotright  a{
+    font-size: 13px;
+    color: #37a;
+}
+.hotspotright ul li{
+    padding: 4px 0;
+}
+.hotspotright ul li a{
+    font-size: 14px;
+}
+.hotspotright  p{
+    font-size: 13px;
+    color: #c3c3c3;
+    padding: 5px 0;
+}
+
+
+/*豆瓣时间*/
+.db-time{
+    background-color: #f7f7f7;
+    padding: 40px 0 20px;
+    margin-top: 30px;
+}
+.db-time .timeleft{
+    margin-right: 20px;
+    width: 100px;
+}
+.db-time .wrap .timeleft a{
+    font-size: 24px;
+    color: black;
+}
+.timeright h1{
+    color: rgb(0,199,34);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    padding: 8px 0;
+
+}
+.timeright  h1 a{
+    color: #37a;
+    font-size: 12px;
+
+}
+.timeright  h1 a:hover{
+    background-color: #7abaff;
+    color: white;
+}
+.timeright{
+   width:  830px;
+}
+.timeright ul li{
+    float: left;
+    width: 100px;
+    font-size: 13px;
+    text-align: center;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.timeright ul li p{
+    margin-top: 10px;
+    color: #c3c3c3;
+}
+.timeright ul li p a{
+    line-height: 1.5;
+    color: black;
+}
+.timeright ul li p a:hover{
+    background-color: #7abaff;
+    color: white;
+}
+/*时间结束*/
+
+/*电影开始*/
+.db-movie{
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.db-movie .movielist{
+    width: 100px;
+    margin-right: 20px;
+    color: #37a;
+    float: left;
+
+}
+.db-movie .movielist h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.db-movie .movielist li{
+    font-size:14px ;
+    margin-top: 5px;
+    padding: 4px 0;
+
+}
+.db-movie  a:hover{
+    background-color: #7abaff;
+    color: white;
+}
+.db-movie .moviemain{
+    width: 535px;
+    float: left;
+}
+.db-movie .moviemain h1{
+    font-size: 15px;
+    color: green;
+}
+.db-movie .moviemain h1 a{
+    font-size: 12px;
+    color: #37a;
+}
+.db-movie .moviemain ul li{
+    float: left;
+    text-align: center;
+    margin: 20px 20px;
+}
+.db-movie .moviemain ul li p{
+    font-size: 13px;
+    padding: 10px;
+}
+.db-movie .moviemain ul li button{
+    background-color: #37a;
+    padding: 3px 5px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-top: 8px;
+}
+.db-movie .moviemain ul li span{
+    display: inline-block;
+    width: 55px;
+    height: 11px;
+    background: url('../img/moviestar.png') 0 0 ;
+}
+/*电影结束*/

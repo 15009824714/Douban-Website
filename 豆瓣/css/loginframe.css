@@ -1,0 +1,181 @@
+.db-body-right{
+    width: 280px;
+    height: 100%;
+    padding: 25px 10px 10px;
+    position: relative;
+}
+.login-header{
+    width: 100%;
+    text-align: center;
+    color: #c3c3c3;
+}
+.login-header .left{
+    width: 50%;
+    padding: 8px 0;
+}
+.login-header .right{
+    width: 50%;
+    padding: 8px 0;
+}
+.login-header .active{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: black;
+}
+.db-body-right p{
+    padding:10px 0;
+    color: #c3c3c3;
+    font-size: 13px;
+}
+.db-body-right p a{
+    color: darkseagreen;
+}
+.db-body-right input{
+    height: 15.2px;
+    border: none;
+}
+.login-username{
+    border: 1px solid #c3c3c3;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.login-username input{
+    width: 178px;
+    padding: 8px 40px 8px 60px;
+}
+.login-username span{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 0;
+    top: 0;
+    padding: 8px 10px;
+    border-right: 1px solid #c3c3c3;
+}
+.login-password{
+    border: 1px solid #c3c3c3;
+    position: relative;
+    margin-bottom: 10px;
+}
+.login-password input{
+    width: 258px;
+    padding: 8px 10px;
+}
+.login-password a{
+    font-size: 13px;
+    color: #8fd19e;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 30px;
+}
+.db-body-right form button{
+    width: 100%;
+    height: 35px;
+    color: white;
+    text-align: center;
+    background-color: #8fd19e;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+.rememberpassword{
+    padding: 10px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+.rememberpassword p{
+    padding: 2px;
+    color: black;
+}
+.rememberpassword div{
+    padding: 2px;
+    font-size: 13px;
+    color: #8fd19e;
+}
+.otherlogin{
+    padding: 10px 0;
+    color: #c3c3c3;
+    font-size: 13px;
+}
+.otherlogin span{
+    font-size: 18px;
+    margin-left: 10px;
+    vertical-align: -2px;
+}
+.otherlogin span:nth-child(1){
+    color: green;
+}
+.otherlogin span:nth-child(2){
+    color: indianred;
+}
+.telephone{
+    width: 300px;
+    height: 296px;
+    background-color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.telecontent{
+    width: 280px;
+    height: 224px;
+    margin: 28px auto;
+    border: 1px solid #c3c3c3;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.telecontent .teletitle{
+    height: 30px;
+    background: rgba(237,244,237);
+    color:green ;
+    line-height: 30px;
+    padding-left:15px ;
+}
+.telecontent ul{
+    height: 194px;
+    overflow: auto;
+}
+.telecontent ul li{
+    width: 235px;
+    margin: auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid #c3c3c3;
+}
+.telecontent ul li.selected{
+      color: #8fd19e;
+}
+.download{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.erweimalogin .erweimacontent{
+    width: 280px;
+    text-align: center;
+}
+.erweimalogin h1{
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.erweimalogin .erweimacontent img{
+    text-align: center;
+    padding-top: 20px;
+}
+.erweimalogin .erweimacontent p{
+    margin: auto;
+    padding: 3px 20px;
+    margin-top: 10px;
+    width: 143px;
+    background-color: #c3c3c3;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+
+}
